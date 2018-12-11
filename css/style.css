@@ -1,0 +1,540 @@
+.clearfix {
+    clear: both;
+}
+#index
+{
+    background-image: url("../images/bo4.gif");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+#index2
+{
+    background-image: url("../images/bo4.gif"); 
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#main-container
+{
+    margin: 0 auto;
+    width: 1000px;
+    position: relative;
+    right: 35px;
+    top: 20px;
+    align-content: center;
+
+}
+
+
+#logo
+{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 40px;  
+    font-style: italic;
+}
+
+#logo a:hover
+{
+        color: rgb(131, 129, 127); 
+}
+
+#logo a
+{
+    text-decoration: none;
+    color: white; 
+}
+
+#nav
+{
+    width: 1000px;
+    background-color: rgb(92, 192, 92);
+    height: 50px;
+    font-style: italic;
+
+}
+
+#nav li
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px; 
+    font-weight: bold; 
+}
+
+.home
+{
+    color: white;
+    font-size: 25px;
+    float: left;  
+    margin-left: 10px;   
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.home:hover
+{
+    color: rgb(131, 129, 127); 
+}
+
+.games
+{
+    color: white;
+    font-size: 25px;
+    text-decoration: none; 
+    margin-top: 10px;
+    position:absolute;
+    left: 100px; 
+}
+.games:hover
+{
+    color: rgb(131, 129, 127); 
+}
+
+.about
+{
+    color: white;
+    font-size: 25px;
+    float: left; 
+    margin-left: 135px;
+    text-decoration: none;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.about:hover 
+{
+    color: rgb(131, 129, 127);
+}
+
+.contact
+{
+    color: white; 
+    font-size: 25px;
+    float: left;
+    margin-left: 270px;
+    text-decoration: none; 
+    margin-top: 10px;  
+    position: absolute;
+}
+
+.contact:hover
+{
+    color: rgb(131, 129, 127);
+}
+
+#checkout
+ {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 900px;
+    margin-top: -50px;
+}
+
+#checkout:hover
+{
+    opacity: 0.6;
+    filter: alpha(opacity=30);
+}
+
+#center
+{
+    width: 1000px;
+    height: 300px;
+    background-image: url("../images/backgroundcenter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.centertext1
+{
+    position: absolute;
+    left: 30px;
+    top: 80px; 
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    font-style: italic;
+}
+
+
+.centertext2
+{
+    position: absolute;
+    left: 30px;
+    top: 125px; 
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+}
+
+hr 
+{
+    width: 45%; 
+    position: absolute; 
+    bottom: 125px;
+    height: 1px; 
+    background: greenyellow;
+    left: 30px;
+}
+
+#center2
+{
+    width: 1000px;
+    height: 300px;
+    background-image: url("../images/backgroundcenter2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.center2text
+{
+    position: absolute;
+    left: 30px;
+    top: 125px; 
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    top: 0px;
+    font-style: italic;
+    font-size: 25px;
+    left: 5px;
+}
+
+.center2text ul
+{
+    list-style: none;
+}
+
+#GameShop 
+{
+    position: absolute;
+    right: 50px;
+    width: 200px;
+    height: 150px;
+    bottom: 0px;
+}
+
+.category-item 
+{
+    width: 300px;
+    height: 120px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 2px;
+}
+
+#undercenter
+{
+    margin-top: 40px;
+    margin-left: 1px;
+}
+
+#undercenter ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px; 
+    font-weight: bold; 
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 55px;
+    left: 25px;
+}
+
+.Playstation
+{
+    width: 313px;
+    height: 101px;
+    background-color: blue;
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 52px;
+    font-style: italic;
+}
+
+.Playstation:hover
+{
+    background-color: rgb(57, 72, 206);
+}
+
+.Xbox
+{
+    width: 313px;
+    height: 101px;
+    background-color: green;
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 52px;
+    margin-left: 15px;
+    font-style: italic;
+}
+
+.Xbox:hover 
+{
+    background-color: rgb(56, 172, 56) 
+}
+
+.PC
+{
+    width: 313px;
+    height: 101px;
+    background-color: black;
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 52px;
+    margin-left: 15px;
+    font-style: italic;
+}
+
+.PC:hover 
+{
+    background-color: rgb(29, 27, 27);
+}
+
+#bottom 
+{
+    width: 1000px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+.Reclame
+{
+    position: absolute;
+    padding-top: 15px;
+} 
+
+
+#table
+{
+    width: 1000px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.thead tr th
+{
+    color: white;
+    background-color: grey;
+}
+
+.tfoot
+{
+    color: white;
+    background-color: green;
+    text-align: right;
+}
+
+.blackops
+{
+    background-image: url("../images/blackops.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fifa
+{
+    background-image: url("../images/fifa.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gta
+{
+    background-image: url("../images/gtaV.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tbody
+{
+    background-color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.checkoutlogo
+{
+    background-color: green;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+    width: 1000px;
+
+}
+
+#product-item
+{
+    padding: 5px;
+    width: 230px;
+    height: 325px;
+    float: left;
+    margin: 5px;
+    position: relative;;
+    background-color: black;
+}
+
+.gameTitle
+{
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+}
+
+.gamePrice
+{
+    position: absolute;
+    bottom: 40px;
+    right: 5px;
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    bottom: 100px;
+}
+
+.order 
+{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    left: 0;
+    background-color: green; 
+}
+
+.order a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.order:hover
+{
+    background-color: rgb(56, 172, 56) 
+}
+
+.image
+{
+    padding-top: 20px;
+    width: 228px;
+    height: 170px;
+}
+
+
+.playstationheader
+{
+    color: blue;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 350px;
+    margin-top: 20px;
+    width: 1000px
+}
+
+.xboxheader
+{
+    width: 1000px;
+    color: green;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 420px;
+}
+
+.pcheader
+{
+    width: 1000px;
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 460px;
+}
+
+.category
+{
+    margin-top: 25px;
+    width: 1000px;
+    background-color: lightgreen;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] 
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover 
+{
+    background-color: #45a049;
+}
+
+.container-form
+{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.contact-logo
+{
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.contact-form
+{
+    background-color: lightgreen;
+    height: 50px;
+}
